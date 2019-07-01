@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.text {
+    background: rgba(0,0,0,0.3);
+    padding: 25px;
+    margin: 250px 50px;
+    width: 33%;
+    float: right;
+}
